@@ -29,7 +29,7 @@ export const bootstrap = async () => {
         swaggerOptions: { defaultModelsExpandDepth: -1 },
     })
 
-    await app.listen(appConfig().port || 2765)
+    await app.listen(appConfig().port || 3050)
 } 
 bootstrap()
  

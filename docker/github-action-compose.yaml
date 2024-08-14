@@ -11,4 +11,4 @@ services:
       PORT: ${PORT}
       NODE_ENV: ${NODE_ENV}
     ports:
-      - 2765:2765
+      - 3050:3050
